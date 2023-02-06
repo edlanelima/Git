@@ -72,7 +72,7 @@ git push <branch-remoto> HEAD
 git remote set-url origin <linkDoRemoto>
 
 ### Verificar qual a sua origem remota
-g###it remote -v
+git remote -v
 
 ### Para erros do tipo fatal: refusing to merge unrelated histories
 git pull main main --allow-unrelated-histories
