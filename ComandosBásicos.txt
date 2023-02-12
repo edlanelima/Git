@@ -65,6 +65,9 @@ git push <remote-name> <local-branch-name>:<remote-branch-name>
 ### Enviar branch para o repositório remoto
 git push <branch-remoto> <branch-local>
 
+### Altere a URL do repositório remoto do SSH para HTTPS com o comando git remote set-url.
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
 ### Enviar branch para o repositório remoto, sem precisar digitar o branch local. O branch a ser considerado é o que você está trabalhando.
 git push <branch-remoto> HEAD
 
